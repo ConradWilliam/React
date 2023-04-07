@@ -8,7 +8,7 @@ function SignUp(){
         <>
         <NavBar/>
         <LCard/>
-        <Footer/>
+        
         
         </>
     )

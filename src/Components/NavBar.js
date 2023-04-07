@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">HomeHaven</h1>
+        <h1 className="navbar-logo"></h1>
        
         <ul className="nav-menu">
           {MenuItems.map((item, index) => {

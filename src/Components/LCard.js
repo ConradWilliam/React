@@ -12,14 +12,9 @@ function LCard() {
             <h4>Log in to your account</h4>
 
             
-            <LGoogleAuth
-              googleLabel="Login with Google"
-              facebookLabel="Login with Facebook"
-            />
+    
 
-
-            <p className="or">or</p>
-
+           
             <form>
               <div class="input-wrapper">
                 <label for="username">Username</label>
