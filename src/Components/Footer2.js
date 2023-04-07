@@ -8,7 +8,7 @@ export default function Footer2() {
         <h2>Looking to join us?</h2>
         <p>Experience the Developing touch of things.</p>
         <div className="city-select">
-          <button className="city-btn"><a href="/BookNow">Join Now</a></button>
+          <button className="city-btn"><a href="/SignUp">Join Now</a></button>
         </div>
       </div>
     </div>
