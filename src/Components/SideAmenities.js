@@ -24,15 +24,7 @@ export default function SideAmenities(){
                     <div className='image2'>
                         <img src='https://images.pexels.com/photos/5998120/pexels-photo-5998120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
                         <p>Functional Furnishings</p>
-                    </div>
-                    <div className='image3'>
-                    <img src='https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
-                        <p>Fully-stocked Kitchen</p>
-                    </div>
-                    <div className='image4'>
-                    <img src='https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
-                        <p>Premium bedding</p>
-                    </div>                      
+                    </div>                    
                        <div className='image5'>
                         <img src='https://images.pexels.com/photos/1046639/pexels-photo-1046639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
                         <p>TV with cable</p>
@@ -40,14 +32,6 @@ export default function SideAmenities(){
                     <div className='image6'>
                         <img src='https://images.pexels.com/photos/45980/pexels-photo-45980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
                         <p>Towels</p>
-                    </div>
-                    <div className='image7'>
-                    <img src='https://images.pexels.com/photos/1500459/pexels-photo-1500459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
-                        <p>Parking</p>
-                    </div>
-                    <div className='image8'>
-                    <img src='https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
-                        <p>Swimming pool</p> 
                     </div>
                 </div>
             </div>
