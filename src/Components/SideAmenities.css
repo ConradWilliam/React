@@ -6,17 +6,20 @@
 }
 .about h1 {
     margin-top: 80px;
-    color: #153558;
+    color: #43570f;
     font-size: 38px;
     margin-bottom: 10px;;
     
 }
 .about p {
+    margin-left: 155px;
+    max-width: 900px;
     font-size: 20px;
-    color: #0f3257;
+    color: #43570f;
     margin-bottom: -30px;
 }
 .Image-Section{
+    margin-left: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1%;

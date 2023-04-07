@@ -7,14 +7,14 @@ function Card() {
   return (
     <>
     <div className="Bg-Img">
-      <img src="https://images.adsttc.com/media/images/5a7a/5a00/f197/cc81/4500/0154/slideshow/FACHADA_AMATEPEC_PM-005-Editar.jpg?1517967853" alt="me"/>
+      <img src="https://images.pexels.com/photos/2588757/pexels-photo-2588757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="me"/>
     <div className="card">
       <div className="Header">
-      <h2>Google Developers Club</h2>
+      <h2>Google Developers Club-UCU</h2>
       </div>
       <div className="Para">
       <p>
-      Google Developers is the developer relations team at Google that works to build and support a vibrant community of developers and technology enthusiasts. The team provides resources, tools, and support for developers across various platforms.
+      Google Developers-UCU is a team that works to build and support a vibrant community of developers and technology enthusiasts. The team provides resources, tools, and support for developers across various platforms.
       </p>
       </div>
       </div>

@@ -27,7 +27,7 @@
 .nav-links{
     cursor: pointer;
     text-decoration: none;
-    color: #275f9b;
+    color: #43570f;
     font-weight: 400;
     padding: 0.7rem 1rem;
     
@@ -36,8 +36,8 @@
 .signup-button{
     cursor: pointer;
         background-color: white;
-        color: #4674a4;
-        border: 1.5px solid #4674a4; 
+        color: #43570f;
+        border: 1.5px solid  #43570f; 
         border-radius: 16px;
         padding: 4px 15px;
         

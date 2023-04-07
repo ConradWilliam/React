@@ -19,7 +19,7 @@
 
 .content h4 {
 
-  color: #0f3257;
+  color: #43570f;
   margin-top: 15px;
   font-size: 1.714rem;
   line-height: 3rem;
@@ -69,18 +69,20 @@
   text-align: center;
 }
 .Down a{
+  color:#43570f;
   text-decoration: none;
   list-style: none;
 }
 
 .forgot-pass {
-  color:#1c5087;
+  color:#43570f;
   margin-top: 30px;
   font-size: 13px;
 }
 
 .no-account {
-  color:#1c5087;
+  
+  color:#43570f;
   margin-top: 20px;
   font-size: 13px;
 }
@@ -120,8 +122,8 @@ form {
     margin-left: 79px;
     margin-top: 16px;
     background-color: white;
-    color: #4674a4;
-    border: 1.5px solid #4674a4; 
+    color: #43570f;
+    border: 1.5px solid #43570f; 
     border-radius: 20px;
     padding: 10px 50px;
   }

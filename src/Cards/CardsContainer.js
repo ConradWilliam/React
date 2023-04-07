@@ -7,15 +7,15 @@ const Card1 = () => (
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-          Sofa-Delicious
+          Dev-E-Loper
         </Text>
         <Text h4 color="white">
-          Stream Movies At Your Comfort
+          Become a leading tech maker
         </Text>
       </Col>
     </Card.Header>
     <Card.Image
-      src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      src="https://images.pexels.com/photos/7710140/pexels-photo-7710140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       objectFit="cover"
       width="100%"
       height={340}
@@ -30,15 +30,15 @@ const Card3 = () => (
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-          Supercharged
+          Making a Change in the world
         </Text>
         <Text h4 color="white">
-          Create Memories From Within The Cellars
+          Create Lasting Memories 
         </Text>
       </Col>
     </Card.Header>
     <Card.Image
-      src="https://images.pexels.com/photos/1454805/pexels-photo-1454805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      src="https://images.pexels.com/photos/3856027/pexels-photo-3856027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       width="100%"
       height={340}
       objectFit="cover"
@@ -50,10 +50,10 @@ const Card3 = () => (
 
 const CardsContainer = () => (
   <>
-    <div style={{ fontSize: "1rem", lineHeight: "1.2", marginBottom: "50px", marginTop: "100px", marginLeft: "60px", color: "#0f3257" }}>
+    <div style={{ fontSize: "1rem", lineHeight: "1.2", marginBottom: "50px", marginTop: "100px", marginLeft: "60px", color: "#43570f" }}>
       <h1>Unleashing the Power Of Innovate and Create</h1>
     </div>
-
+  
     <div style={{ display: "flex", justifyContent: "space-between", marginBottom: '60px' }}>
       <Card1 />
       <div style={{ width: "20px" }}></div>

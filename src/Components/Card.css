@@ -1,23 +1,27 @@
 .Header{
-  font-size: 2.500rem;
-  font-weight: 400;
+  font-size: 2.000rem;
+  font-weight: 300;
   line-height: 4.143rem;
   padding-bottom: 10px;
-  color: #0f3257;
+  color: #43570f;
   float: left;
   margin-top: -40px;
 }
 
+.Header h2{
+  font-size: 3rem;
+}
+
 .Para{
-  font-size: 1rem;
+  font-size: 13px;
   line-height: 1.571rem;
-  color:#1c5087; 
+  color: #43570f;
 }
 
 .card {
   background-color: #fff;
-  border-radius: 0 0 96px;
-  left: 60px;
+  border-radius: 0 0 30px;
+  left: 0px;
   margin-top: 0;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
   max-width: 550px;
@@ -38,7 +42,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px 0 0 128px;
+  border-radius: 8px 0 0 ;
   
 }
 
