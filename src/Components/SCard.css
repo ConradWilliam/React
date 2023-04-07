@@ -1,0 +1,107 @@
+
+.signup-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 450px;
+    height: 500px;
+    
+  }
+
+
+.signup-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content h4{
+    margin-top: 15px;
+    font-size: 1.714rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.Google {
+   color: #ffff;
+  background-color: #4285f4;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  
+}
+.Google:hover{
+    transition: box-shadow .3s ease-in-out;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.Fb {
+    color: #ffff;
+    background-color: #3b5998;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+  }
+
+.icon{
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.icon1{
+    display: inline-block;
+    margin-right: 19px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+
+.Email{
+    cursor: pointer;
+    background-color: white;
+    color: #4674a4;
+    border: 1.5px solid #4674a4; 
+    border-radius: 20px;
+    padding: 10px 50px;
+
+}
+
+.or{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Down{
+    color:#1c5087;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.account{
+    margin-top: 30px;
+    font-size: 13px;
+    color:#1c5087;
+    
+}
+
+.terms{
+    margin-top: 30px;
+    font-size: 13px;
+    color:#1c5087;
+}
+
+.Down label{
+    margin-left: 10px;
+    font-size: 13px;
+}
+

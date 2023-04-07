@@ -1,0 +1,123 @@
+footer {
+  background-color: #fff;
+  padding: 12px 0;
+  border-top: 1px solid #ccc;
+  color: #0f3257;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.Countries ul {
+  list-style: none;
+}
+
+.Countries li, .company li, .guests li, .landlords li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.social-media {
+  flex-basis: 10%;
+  padding: -10%;
+}
+
+.social-media h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
+.landlords h4,.company h4,.guests h4,.Countries h4{
+  font-size: 18px; 
+}
+
+.guests ul li, .landlords ul li, .company ul li, .legal-links ul li{
+  list-style: none;
+}
+
+.landlords-container{
+  margin-top: 30px;
+}
+
+
+.email-submission {
+  flex-basis: 20%;
+}
+
+.email-submission h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.email-submission p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form input[type="email"] {
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  width: 70%;
+}
+
+.footer-form button[type="submit"] {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.legal-links {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.legal-links a{
+  list-style: none;
+  text-decoration: none;
+  color:#0f3257;
+  
+}
+
+
+.homehaven-footer h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.legal-links ul li{
+  margin-top: 8px;;
+}
+
+

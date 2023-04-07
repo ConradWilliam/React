@@ -1,0 +1,60 @@
+.home {
+    background-color: #273656;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .home-content h2 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  
+  .home-content p {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+  
+  .city-select {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .city-btn {
+    background-color: #4674a4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .city-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+  }
+  
+   
+  .city-dropdown a:hover {
+    background-color: #273656;
+  }
+  
+  .city-select a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  }

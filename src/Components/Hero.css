@@ -1,0 +1,86 @@
+.Hero{
+ margin: 80px 50px 20px 110px;
+ font-family: sans-serif;
+ font-size: 1rem;
+ line-height: 1.571rem;
+}
+
+.Hero h2{
+color: #0f3257;
+font-size: 2.4rem;
+line-height: 0.8px;
+  
+ }
+
+ .first {
+  width: 600px;
+  height: 507px;
+}
+
+.second,
+.third {
+  width: 500px;
+  height: 250px;
+}
+
+ .Hero p{
+  margin-top: 30px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color:#1c5087;
+  
+ }
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+
+}
+  
+.first{
+  margin: 0px 30px;
+  border-radius: 155px 10px 10px 10px;
+}
+
+.second{
+  margin: 0px -15px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.third{
+  margin: 0px -15px;
+  border-radius: 10px 10px 155px 10px;
+}
+
+@media (max-width: 768px) {
+  .Hero {
+    margin: 40px 20px;
+  }
+  .Hero h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .Hero p {
+    margin-top: 20px;
+  }
+  .row {
+    margin-left: 0;
+  }
+  .first,
+  .second,
+  .third {
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .first,.second,.third{
+    width:479px;
+  }
+}
+
+
+

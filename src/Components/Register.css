@@ -1,0 +1,150 @@
+.room-section h2 {
+margin-left: 10px;
+color: #0f3257;
+}
+
+.room-section p{
+  color:#1c5087; 
+}
+.apartment-form h1{
+color: #0f3257;
+font-size: 2.4rem;
+line-height: 0.8px;
+margin-top: 35px;
+margin-bottom: 30px;
+}
+
+.room-section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slideshow {
+    width: 50%;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .slideshow-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .slideshow-controls button {
+    background-color: #fff;
+    border: 1px solid #777;
+    color: #777;
+    cursor: pointer;
+    font-size: 18px;
+    height: 32px;
+    margin: 0 10px;
+    padding: 0;
+    width: 32px;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+
+  .slideshow-controls button:hover {
+    background-color: #777;
+    color: #fff;
+  }
+  
+  .amenities {
+    width: 40%;
+    
+  }
+
+  .amenities li{
+    color:#1c5087; 
+  }
+  
+  .amenities h3 {
+    color: #0f3257;
+    margin-bottom: 10px;
+    margin-left: 130px;
+  }
+  
+  .amenities ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .amenities li {
+    margin-bottom: 5px;
+    margin-left: 130px;
+
+  }
+  
+  .best-value {
+    text-align: center;
+
+  }
+  
+  .best-value h3 {
+    color: #0f3257;
+    margin-bottom: 10px;
+  }
+  
+  .best-value p {
+    margin-bottom: 20px;
+  }
+  
+  .best-value button {
+    border: none;
+    background-color: #4674a4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .room-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .slideshow {
+      width: 100%;
+    }
+  
+    .amenities {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .apartment-form h1 {
+    font-size: 1.9rem;
+    margin-left: 20px;
+    }
+    
+    .amenities li {
+    margin-left: 20px;
+    
+    }
+    .amenities h3{
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .best-value h3{
+      margin-top: 10px;
+    }
+    }

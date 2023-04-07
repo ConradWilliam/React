@@ -1,0 +1,115 @@
+.Testimony h1{
+  font-size: 38px;
+  margin-top: 50px;
+  color: #0f3257;
+  margin-bottom: 20px;
+
+}
+
+.testimonial-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 140px;
+  margin-right: 35px;
+}
+
+.testimonial-carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-slide--active {
+  opacity: 1;
+}
+
+.testimonial-img {
+  margin-top: 10px;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-content {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: center;
+  color:#1c5087;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.testimonial-carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.testimonial-carousel-control {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.testimonial-carousel-control:hover {
+  color: #8eafd2;
+}
+
+.testimonial-carousel-control--prev {
+  font-size: 20px;
+  color: #4674a4;
+
+}
+
+.testimonial-carousel-control--next {
+  font-size: 20px;
+  color: #4674a4;
+
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust the testimonial-carousel-inner class for smaller screens */
+  .testimonial-carousel-inner {
+  width: 100%;
+  margin-right: 0;
+  }
+  
+  /* Adjust the testimonial-img class for smaller screens */
+  .testimonial-img {
+  height: 150px;
+  width: 150px;
+  }
+  }

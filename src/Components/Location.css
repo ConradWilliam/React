@@ -1,0 +1,60 @@
+
+.location-container h2 {
+  color: #0f3257;
+  font-size: 2.4rem;
+  line-height: 0.8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.location-container p{
+  color: #0f3257;
+  margin: auto;
+  font-size: 1.143rem;
+  line-height: 1.857rem;
+}
+
+.country-tags {
+  margin-bottom: 100px;
+}
+
+.country-tags ul li i {
+  width: 40px;
+  height: 30px;
+  border-radius: 8px;
+  
+}
+
+.country-tags ul {
+  columns: 5;
+  margin-top: 20px; 
+}
+
+@media (max-width:850px) {
+  .country-tags ul {
+    columns: 2;
+    margin-top: 20px;
+    
+  }
+
+}
+
+.country-tags li {
+  display: inline-block;
+  font-size: 1.571rem;
+  line-height: 1.714rem;
+  margin: 18px;
+}
+
+.country-tags a{
+  text-decoration: none;
+  color: #273656;
+}
+
+@media (max-width: 768px) {
+  .location-container h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,120 @@
+.Header{
+  font-size: 2.500rem;
+  font-weight: 400;
+  line-height: 4.143rem;
+  padding-bottom: 10px;
+  color: #0f3257;
+  float: left;
+  margin-top: -40px;
+}
+
+.Para{
+  font-size: 1rem;
+  line-height: 1.571rem;
+  color:#1c5087; 
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0 0 96px;
+  left: 60px;
+  margin-top: 0;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
+  max-width: 550px;
+  padding: 64px;
+  position: absolute;
+  top: 60px;
+  height: 60%;
+}
+
+.Bg-Img img {
+  margin-top: 0;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0 0 128px;
+  
+}
+
+
+.Choose{
+ float: left;
+}
+
+.dropbtn {
+  background-color: #4674a4; 
+  color: white;
+  width: 160px;
+  padding: 9px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin: 30px;
+  margin-left: 1px;
+
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {background-color: #4674a4;}
+
+/* For small screens (up to 576px) */
+@media (max-width: 576px) {
+  .Header {
+    font-size: 1.875rem;
+    line-height: 3.428rem;
+  }
+}
+
+/* For medium screens (between 576px and 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  .Header {
+    font-size: 2.188rem;
+    line-height: 3.571rem;
+  }
+}
+
+/* For large screens (greater than 992px) */
+@media (min-width: 992px) {
+  .Header {
+    font-size: 2.500rem;
+    line-height: 4.143rem;
+  }
+}
+

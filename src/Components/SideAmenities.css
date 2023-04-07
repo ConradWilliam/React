@@ -1,0 +1,38 @@
+.about{
+    justify-content: center;
+    text-align: center;
+    margin-top: -80px;
+}
+.about h1 {
+    color: #153558;
+    font-size: 38px;
+    margin-bottom: 10px;;
+    
+}
+.about p {
+    font-size: 20px;
+    color: #0f3257;
+    margin-bottom: -30px;
+}
+.Image-Section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8px;
+    padding-bottom: 8%;
+  
+}
+
+.image{
+
+    padding: 1%;
+}
+
+.Division img{
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
